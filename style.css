@@ -16,27 +16,67 @@ header h1{
     font-size: 30px;
 }
 
-header .container{
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header li {
+header nav li {
     font-family: Arial, Helvetica, sans-serif;
     display: inline;
     margin-left: 16px;
     font-weight: normal;
 }
 
-header li a {
+header nav li a {
     color: #f5f6fa;
     text-decoration: none;
 }
 
 .container {
-    width: 1366px;
-    margin: 0;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
+
+.logo img{
+    height: 40px;
+    
+}
+
+.logo li img {
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+    margin-right: 32px;
+}
+
+.mulher{
+    margin-right: 32px;
+    height: 400px;
+}
+
+
+
+
 
 
