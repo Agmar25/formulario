@@ -75,6 +75,20 @@ section p{
     height: 400px;
 }
 
+.links img {
+    height: 24px;
+}
+
+.links li {
+    display: inline;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.links li a {
+    text-decoration: none;
+}
+
 
 
 
