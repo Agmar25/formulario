@@ -10,6 +10,15 @@ header {
     color: #f5f6fa;
 }
 
+header,
+section h2,
+section h3,
+form button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:  normal;
+    font-style: normal;
+}
+
 header h1{
     margin: 24px;
     font-weight: bold;
@@ -130,6 +139,14 @@ footer{
     background-color: #2f3640;
     color: #f5f6fa;
     padding: 16px 0;
+}
+
+#contato{
+    background-color: #bebfc1;
+}
+
+#sobre{
+    background-color: #bebfc1;
 }
 
 
